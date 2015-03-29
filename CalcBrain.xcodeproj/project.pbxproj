@@ -1,0 +1,264 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7168BF21AC82ED40032FA89 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7168BF11AC82ED40032FA89 /* main.swift */; };
+		A7168BF91AC8309C0032FA89 /* CalcBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7168BF81AC8309C0032FA89 /* CalcBrain.swift */; };
+		A7168BFC1AC830D80032FA89 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7168BFB1AC830D80032FA89 /* Stack.swift */; };
+		A7168BFE1AC831250032FA89 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7168BFD1AC831250032FA89 /* Result.swift */; };
+		A7168C001AC832650032FA89 /* String+CalcBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7168BFF1AC832650032FA89 /* String+CalcBrain.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A7168BEC1AC82ED40032FA89 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A7168BEE1AC82ED40032FA89 /* CalcBrain */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CalcBrain; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7168BF11AC82ED40032FA89 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		A7168BF81AC8309C0032FA89 /* CalcBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalcBrain.swift; sourceTree = "<group>"; };
+		A7168BFB1AC830D80032FA89 /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		A7168BFD1AC831250032FA89 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		A7168BFF1AC832650032FA89 /* String+CalcBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+CalcBrain.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7168BEB1AC82ED40032FA89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7168BE51AC82ED40032FA89 = {
+			isa = PBXGroup;
+			children = (
+				A7168BF01AC82ED40032FA89 /* CalcBrain */,
+				A7168BEF1AC82ED40032FA89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7168BEF1AC82ED40032FA89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7168BEE1AC82ED40032FA89 /* CalcBrain */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7168BF01AC82ED40032FA89 /* CalcBrain */ = {
+			isa = PBXGroup;
+			children = (
+				A7168BFA1AC830A50032FA89 /* Common */,
+				A7168BF81AC8309C0032FA89 /* CalcBrain.swift */,
+				A7168BF11AC82ED40032FA89 /* main.swift */,
+			);
+			path = CalcBrain;
+			sourceTree = "<group>";
+		};
+		A7168BFA1AC830A50032FA89 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				A7168BFB1AC830D80032FA89 /* Stack.swift */,
+				A7168BFD1AC831250032FA89 /* Result.swift */,
+				A7168BFF1AC832650032FA89 /* String+CalcBrain.swift */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7168BED1AC82ED40032FA89 /* CalcBrain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7168BF51AC82ED40032FA89 /* Build configuration list for PBXNativeTarget "CalcBrain" */;
+			buildPhases = (
+				A7168BEA1AC82ED40032FA89 /* Sources */,
+				A7168BEB1AC82ED40032FA89 /* Frameworks */,
+				A7168BEC1AC82ED40032FA89 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CalcBrain;
+			productName = CalcBrain;
+			productReference = A7168BEE1AC82ED40032FA89 /* CalcBrain */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7168BE61AC82ED40032FA89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Denis Shvetsov";
+				TargetAttributes = {
+					A7168BED1AC82ED40032FA89 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = A7168BE91AC82ED40032FA89 /* Build configuration list for PBXProject "CalcBrain" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A7168BE51AC82ED40032FA89;
+			productRefGroup = A7168BEF1AC82ED40032FA89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7168BED1AC82ED40032FA89 /* CalcBrain */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7168BEA1AC82ED40032FA89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7168C001AC832650032FA89 /* String+CalcBrain.swift in Sources */,
+				A7168BF91AC8309C0032FA89 /* CalcBrain.swift in Sources */,
+				A7168BFC1AC830D80032FA89 /* Stack.swift in Sources */,
+				A7168BFE1AC831250032FA89 /* Result.swift in Sources */,
+				A7168BF21AC82ED40032FA89 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A7168BF31AC82ED40032FA89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A7168BF41AC82ED40032FA89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A7168BF61AC82ED40032FA89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A7168BF71AC82ED40032FA89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7168BE91AC82ED40032FA89 /* Build configuration list for PBXProject "CalcBrain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7168BF31AC82ED40032FA89 /* Debug */,
+				A7168BF41AC82ED40032FA89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7168BF51AC82ED40032FA89 /* Build configuration list for PBXNativeTarget "CalcBrain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7168BF61AC82ED40032FA89 /* Debug */,
+				A7168BF71AC82ED40032FA89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7168BE61AC82ED40032FA89 /* Project object */;
+}
