@@ -90,7 +90,6 @@ class CalcBrain {
         return String(format: format, arguments: [value])
     }
     
-    // MARK: - Infix to postfix
     /**
     * Shunting-yard algorithm
     * @param input - math expression in infix notation
